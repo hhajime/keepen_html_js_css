@@ -1,0 +1,310 @@
+html {
+  scroll-behavior: smooth;
+ }
+
+.header {
+    width: 100%;
+    height: 70px;
+    background-color: #659F7C;
+    position: fixed;
+    opacity: 1;
+    z-index: 1;
+    box-shadow: 0.2px 0.2px 0.2px 0.2px ;
+    float: left;
+}
+.logo {
+    width: 10;
+    margin: 15px;
+}
+
+.button1{
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    margin: auto;
+    display:block;
+    text-align: center;
+    margin-left: 1500px;
+    margin-top: -28px;
+    font-size: 20px;
+    color: #b2ccbf;
+}
+
+.button1:hover{
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    color: white;
+}
+
+.button2{
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  margin: auto;
+  display:block;
+  text-align: center;
+  margin-left: 1650px;
+  margin-top: -26px;
+  font-size: 20px;
+  color: #b2ccbf;
+}
+
+.button2:hover{
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  color: white;
+}
+
+
+
+.button3{
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  margin: auto;
+  display:block;
+  text-align: center;
+  margin-left: 1400px;
+  margin-top: -50px;
+  font-size: 20px;
+  color: #b2ccbf;
+}
+
+.button3:hover{
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  color: white;
+}
+
+.button4{
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    margin: auto;
+    display:block;
+    text-align: center;
+    margin-left: 1300px;
+    margin-top: -25.5px;
+    font-size: 20px;
+    color: #b2ccbf;
+}
+
+.button4:hover{
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    color: white;
+}
+
+.cover-container {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    margin:0 auto;
+    background-color: #92BEA9
+}
+.cover {
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    object-fit: cover;
+}
+.cover-title {
+    position: absolute;
+    top: 15%;
+    right: -750px;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+    color: white;
+    text-align: center;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.founders{
+    width: 500;
+    height: 400;
+}
+
+.mainparagraph{
+    font-size: 50px;
+    color: #297932;
+    padding-left: 40px;
+}
+.mainparagraph2{
+    font-size: 50px;
+    color: #92BEA9;
+    padding-left: 150px;
+}
+.subparagraph{
+    font-size: 25px;
+    color: #4d8b6d;
+    opacity: 0.7;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+/* Style For Founder */
+
+.grid-image
+{
+    border-collapse: separate;
+    padding-left: 200px;
+    text-align: center;
+    color: #92BEA9;
+    font-size: 20px;
+}
+/* Style For Founder FlipCard*/
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: #92BEA9;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+/* StyleFor Footer */
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+
+* {
+  font-family: Roboto;
+}
+
+section {
+  width: 100%;
+  display: inline-block;
+  background: #ccc;
+  height: 60vh;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.footer-distributed {
+  background-color: #292c2f;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: normal 16px sans-serif;
+  padding: 45px 50px;
+}
+
+.footer-distributed .footer-left p {
+  color: #8f9296;
+  font-size: 14px;
+  margin: 0;
+}
+/* Footer links */
+
+.footer-distributed p.footer-links {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0 0 10px;
+  padding: 0;
+  transition: ease .25s;
+}
+
+.footer-distributed p.footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+  transition: ease .25s;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "·";
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+.footer-distributed .footer-right {
+  float: right;
+  margin-top: 6px;
+  max-width: 180px;
+}
+
+.footer-distributed .footer-right a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #33383b;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 3px;
+  transition:all .25s;
+}
+
+.footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
+
+.footer-distributed p.footer-links a:hover{text-decoration:underline;}
+
+/* Media Queries */
+
+@media (max-width: 600px) {
+  .footer-distributed .footer-left, .footer-distributed .footer-right {
+    text-align: center;
+  }
+  .footer-distributed .footer-right {
+    float: none;
+    margin: 0 auto 20px;
+  }
+  .footer-distributed .footer-left p.footer-links {
+    line-height: 1.8;
+  }
+}
