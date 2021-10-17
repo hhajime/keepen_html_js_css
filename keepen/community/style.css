@@ -16,3 +16,9 @@ body {
     margin: 0;
     padding: 0;
 }
+
+.textform{
+    position: absolute;
+    padding-left: 100px;
+    padding-top: 100px;
+}
