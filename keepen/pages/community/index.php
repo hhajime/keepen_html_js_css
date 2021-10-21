@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=chrome">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>keepen</title>
-<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" type="text/css" href="../style.css" />
 </head>
 <header class="header">
         <img class="logo" src="../../assets/images/logo.png" alt="logo">
@@ -22,8 +22,8 @@
                 <th width="120">글쓴이</th>
                 <th width="100">작성일</th>
                 <!-- 추천수 항목 추가 -->
-                <th width="100">추천수</th>
                 <th width="100">조회수</th>
+                <th width="100">추천수</th>
             </tr>
         </thead>
         <!-- 테스트 코드 -->
@@ -43,7 +43,7 @@
         <tbody>
         <tr>
           <td width="70"><?php echo $board['idx']; ?></td>
-          <td width="500"><a href=""><?php echo $title;?></a></td>
+          <td width="500"><a href="/keepen/pages/community/board/read.php?=idx=<?php echo $board["idx"];?><?php echo $title;?></a></td>
           <td width="120"><?php echo $board['name']?></td>
           <td width="100"><?php echo $board['date']?></td>
           <td width="100"><?php echo $board['hit']; ?></td>
