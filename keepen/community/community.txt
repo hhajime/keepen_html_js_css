@@ -9,7 +9,7 @@
 </head>
 <header class="header">
         <img class="logo" src="../assets/images/logo.png" alt="logo">
-        <button onclick="location.href='../community/community.html'">text</button >
+        <button onclick="location.href='../community/index.php'">text</button >
 </header>
 <body bgcolor="white" style="overflow: auto;"><div class="textform">
     <form action="../assets/home/home.html" method="post" onsubmit="return formCheck();">

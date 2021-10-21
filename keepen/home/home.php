@@ -1,9 +1,10 @@
+<?php include  $_SERVER['DOCUMENT_ROOT']."../db/db.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
     <link rel="stylesheet" href="style.css">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=chrome">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>keepen</title>
 </head>
@@ -11,8 +12,8 @@
         <img class="logo" src="../assets/images/logo.png" alt="logo">
         <button class="button3" onclick="document.getElementById('middle').scrollIntoView();">Team</button>
         <button class="button4" onclick="document.getElementById('middle-end').scrollIntoView();">About</button>
-        <button class="button1" onclick="location.href='../community/community.html'">community</button>
-        <button class="button2" onclick="location.href='../community/community.html'">Get Start</button>
+        <button class="button1" onclick="location.href='../community/index.php'">community</button>
+        <button class="button2" onclick="location.href='../community/index.php'">Get Start</button>
 </header>
 <body bgcolor="white" style="overflow: auto;">
     <div class="cover-container">
