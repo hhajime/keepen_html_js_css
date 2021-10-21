@@ -1,14 +1,14 @@
-<?php include  $_SERVER['DOCUMENT_ROOT']."../db/db.php"; ?>
+<?php include  $_SERVER['DOCUMENT_ROOT']."../../keepen_html_js_css/keepen/db/db.php"; ?>
 <!doctype html>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=chrome">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>keepen</title>
-<link rel="stylesheet" type="text/css" href="../community/style.css" />
+<link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <header class="header">
-        <img class="logo" src="../assets/images/logo.png" alt="logo">
+        <img class="logo" src="../../assets/images/logo.png" alt="logo">
 </header>
 <body>
 <div id="board_area"> 

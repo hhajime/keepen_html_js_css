@@ -1,6 +1,6 @@
 <?php
 
-include $_SERVER['DOCUMENT_ROOT']."../db/db.php";
+include $_SERVER['DOCUMENT_ROOT']."../../keepen_html_js_css/keepen/db/db.php";
 
 //각 변수에 write.php에서 input name값들을 저장한다
 $username = $_POST['name'];

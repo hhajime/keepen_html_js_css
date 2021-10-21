@@ -1,4 +1,4 @@
-<?php include  $_SERVER['DOCUMENT_ROOT']."../db/db.php"; ?>
+<?php include  $_SERVER['DOCUMENT_ROOT']."../../keepen_html_js_css/keepen/db/db.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
     <link rel="stylesheet" href="style.css">
@@ -12,8 +12,8 @@
         <img class="logo" src="../assets/images/logo.png" alt="logo">
         <button class="button3" onclick="document.getElementById('middle').scrollIntoView();">Team</button>
         <button class="button4" onclick="document.getElementById('middle-end').scrollIntoView();">About</button>
-        <button class="button1" onclick="location.href='../community/index.php'">community</button>
-        <button class="button2" onclick="location.href='../community/index.php'">Get Start</button>
+        <button class="button1" onclick="location.href='pages/community/index.php'">community</button>
+        <button class="button2" onclick="location.href='pages/community/index.php'">Get Start</button>
 </header>
 <body bgcolor="white" style="overflow: auto;">
     <div class="cover-container">
