@@ -1,4 +1,4 @@
-<?php include  $_SERVER['DOCUMENT_ROOT']."../../keepen_html_js_css/keepen/db/db.php"; ?>
+<?php include  $_SERVER['DOCUMENT_ROOT']."/keepen_html_js_css/keepen/db/db.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
     <link rel="stylesheet" href="style.css">

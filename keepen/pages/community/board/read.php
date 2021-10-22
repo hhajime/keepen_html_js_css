@@ -1,5 +1,5 @@
 <?php
-	include $_SERVER['DOCUMENT_ROOT']."../../keepen_html_js_css/keepen/db/db.php"; /* db load */
+	include $_SERVER['DOCUMENT_ROOT']."/keepen_html_js_css/keepen/db/db.php"; /* db load */
 ?>
 <!doctype html>
 <head>

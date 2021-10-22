@@ -18,9 +18,9 @@ ini_set("display_errors",1);
         global $db;
         return $db->query($query);
     }
-    if($db->connect_errno){
+    /*if($db->connect_errno){
         echo "MySQL 접속 실패";
     }else{
         echo "MySQL 접속 성공";
-    }
+    }*/
     ?>

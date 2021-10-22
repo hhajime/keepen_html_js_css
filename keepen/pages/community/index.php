@@ -1,4 +1,4 @@
-<?php include  $_SERVER['DOCUMENT_ROOT']."../../keepen_html_js_css/keepen/db/db.php"; ?>
+<?php include  $_SERVER['DOCUMENT_ROOT']."/keepen_html_js_css/keepen/db/db.php"; ?>
 <!doctype html>
 <head>
     <meta charset="UTF-8">
@@ -23,7 +23,6 @@
                 <th width="100">작성일</th>
                 <!-- 추천수 항목 추가 -->
                 <th width="100">조회수</th>
-                <th width="100">추천수</th>
             </tr>
         </thead>
         <!-- 테스트 코드 -->
@@ -48,13 +47,12 @@
           <td width="100"><?php echo $board['date'];?></td>
           <td width="100"><?php echo $board['hit']; ?></td>
           <!-- 추천수 표시해주기 위해 추가한 부분 -->
-          <td width="100"><?php echo $board['thumbup'];?></td>
         </tr>
       </tbody>
       <?php } ?>
     </table>
     <div id="write_btn">
-      <a href="/community/board/write.php"><button>글쓰기</button></a>
+      <a href="board/write.php"><button>글쓰기</button></a>
     </div>
   </div>
 </body>

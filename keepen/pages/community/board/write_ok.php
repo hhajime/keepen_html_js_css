@@ -1,6 +1,6 @@
 <?php
 
-include $_SERVER['DOCUMENT_ROOT']."../../keepen_html_js_css/keepen/db/db.php";
+include $_SERVER['DOCUMENT_ROOT']."/keepen_html_js_css/keepen/db/db.php";
 
 //각 변수에 write.php에서 input name값들을 저장한다
 $username = $_POST['name'];
@@ -12,7 +12,7 @@ if($username && $userpw && $title && $content){
     $sql = query("insert into board(name,pw,title,content,date) values('".$username."','".$userpw."','".$title."','".$content."','".$date."')");
     echo "<script>
     alert('글쓰기 완료되었습니다.');
-    location.href='/community/index.php';</script>";
+    location.href='../index.php';</script>";
 }else{
     echo "<script>
     alert('글쓰기에 실패했습니다.');
