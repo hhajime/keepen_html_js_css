@@ -20,7 +20,7 @@
 <div id="board_read">
 	<h2><?php echo $board['title']; ?></h2>
 		<div id="user_info">
-			<?php echo $board['name']; ?> <?php echo $board['date']; ?> 조회:<?php echo $board['hit']; ?> 추천수:<?php echo $board['thumbup']; ?>
+			<?php echo $board['name']; ?> <?php echo $board['date']; ?> 조회:<?php echo $board['hit']; ?> 
 				<div id="bo_line"></div>
 			</div>
 			<div id="bo_content">

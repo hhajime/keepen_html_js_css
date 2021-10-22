@@ -9,4 +9,4 @@ $content = $_POST['content'];
 $sql = query("update board set name='".$username."',pw='".$userpw."',title='".$title."',content='".$content."' where idx='".$bno."'"); ?>
 
 <script type="text/javascript">alert("수정되었습니다."); </script>
-<meta http-equiv="refresh" content="0 url=../pages/community/index.php">
+<meta http-equiv="refresh" content="0 url=../index.php">

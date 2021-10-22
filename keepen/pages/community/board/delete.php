@@ -5,4 +5,4 @@
 	$sql = query("delete from board where idx='$bno';");
 ?>
 <script type="text/javascript">alert("삭제되었습니다.");</script>
-<meta http-equiv="refresh" content="0 url=../pages/community/index.php" />
+<meta http-equiv="refresh" content="0 url=../index.php" />
