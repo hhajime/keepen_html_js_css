@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=chrome">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>keepen</title>
-<link rel="stylesheet" type="text/css" href="../style.css" />
+<link rel="stylesheet" type="text/css" href="/pages/community/style.css" />
 </head>
 <header class="header">
         <img class="logo" src="../../assets/images/logo.png" alt="logo">
 </header>
 <body>
-<div id="board_area"> 
-  <h1>자유게시판</h1>
-  <h4>자유롭게 글을 쓸 수 있는 게시판입니다.</h4>
+<div id="board_area">
+  <h1 id="board_name">자유게시판</h1>
+  <h4 id="board_paragraph">자유롭게 글을 쓸 수 있는 게시판입니다.</h4>
     <table class="list-table">
       <thead>
           <tr>
