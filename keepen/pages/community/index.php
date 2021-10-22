@@ -42,13 +42,13 @@
         ?>
         <tbody>
         <tr>
-          <td width="70"><?php echo $board['idx']; ?></td>
-          <td width="500"><a href="/keepen/pages/community/board/read.php?=idx=<?php echo $board["idx"];?><?php echo $title;?></a></td>
-          <td width="120"><?php echo $board['name']?></td>
-          <td width="100"><?php echo $board['date']?></td>
+          <td width="70"><?php echo $board['idx'];?></td>
+          <td width="500"><a href="/keepen/pages/community/board/read.php?idx=<?php echo $board["idx"];?>"><?php echo $title;?></a></td>
+          <td width="120"><?php echo $board['name'];?></td>
+          <td width="100"><?php echo $board['date'];?></td>
           <td width="100"><?php echo $board['hit']; ?></td>
           <!-- 추천수 표시해주기 위해 추가한 부분 -->
-          <td width="100"><?php echo $board['thumbup']?></td>
+          <td width="100"><?php echo $board['thumbup'];?></td>
         </tr>
       </tbody>
       <?php } ?>
