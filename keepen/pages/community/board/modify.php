@@ -12,6 +12,11 @@
 <title>게시판</title>
 <link rel="stylesheet" href="../style.css" />
 </head>
+<header class="header">
+<a href="../../../home.php">
+        <img class="logo" src="../../../assets/images/logo.png" alt="logo">
+        </a>
+</header>
 <body>
     <div id="board_write">
         <h1><a href="/">자유게시판</a></h1>
@@ -33,7 +38,7 @@
                         <input type="password" name="pw" id="upw"  placeholder="비밀번호" required />  
                     </div>
                     <div class="bt_se">
-                        <button type="submit">글 작성</button>
+                        <button type="submit">수정</button>
                     </div>
                 </form>
             </div>

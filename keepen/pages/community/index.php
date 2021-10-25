@@ -8,12 +8,14 @@
 <link rel="stylesheet" type="text/css" href="/pages/community/style.css" />
 </head>
 <header class="header">
+<a href="../../home.php">
         <img class="logo" src="../../assets/images/logo.png" alt="logo">
+        </a>
 </header>
-<body>
+<body class="body">
 <div id="board_area">
-  <h1 id="board_name">자유게시판</h1>
-  <h4 id="board_paragraph">자유롭게 글을 쓸 수 있는 게시판입니다.</h4>
+  <h1 id="board_name">Echo Community</h1>
+  <h4 id="board_paragraph">고객과 기업이 함께 만들어 나가는 장소입니다.</h4>
     <table class="list-table">
       <thead>
           <tr>

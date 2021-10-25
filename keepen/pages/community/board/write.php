@@ -2,8 +2,13 @@
 <head>
 <meta charset="UTF-8">
 <title>게시판</title>
-<link rel="stylesheet" type="text/css" href="/keepen_html_js_css/keepen/pages/community/style.css" />
+<link rel="stylesheet" type="text/css" href="/pages/community/style.css" />
 </head>
+<header class="header">
+<a href="../../../home.php">
+        <img class="logo" src="../../../assets/images/logo.png" alt="logo">
+        </a>
+</header>
 <body>
     <div id="board_write">
         <h1><a href="/">자유게시판</a></h1>

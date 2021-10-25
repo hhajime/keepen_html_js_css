@@ -15,6 +15,7 @@
 }
 
 body {
+	background-color: #92BEA9;
     margin: 0;
     padding: 0;
 }
@@ -24,6 +25,7 @@ body {
     padding-left: 100px;
     padding-top: 100px;
 }
+
 
 /* 전체 옵션 */
 * {
@@ -49,9 +51,16 @@ ul li {
 
 /* 게시판 목록 */
 #board_area {
-	margin-top: 500px;
+	padding-bottom: 10%;
+	padding-left: 10%;
+	padding-right: 32%;
+	margin-top: 100px;
+	margin-left: 100px;
+	justify-content: center;
+	align-items: center;
 	width: 900px;
 	position: absolute;
+	background-color: white;
 }
 .list-table {
 	margin-top: 80px;
@@ -70,14 +79,19 @@ ul li {
 	font-size: 14px 
 }
 #write_btn {
-	position: absolute;
 	margin-top:41px;
-	right: 0;
+	right: 50px;
 	border: none;
 }
 
 /* 게시판 글쓰기 */
 #board_write {
+	padding-bottom: 5%;
+	padding-left: 10%;
+	padding-right: 32%;
+	margin-top: 100px;
+	margin-left: 100px;
+	background-color: white;
 	width:900px;
 	position:relative;
 	margin:0 auto;
@@ -142,6 +156,7 @@ ul li {
 
 /* 게시판 read */
 #board_read {
+	background-color: #fff;
 	width:900px;
 	position: relative;
 	word-break:break-all;
@@ -156,7 +171,7 @@ ul li {
 #bo_line {
 	width:900px;
 	height:2px;
-	background: gray;
+	background: white;
 	margin-left: 0;
 	margin-top:20px;
 }
