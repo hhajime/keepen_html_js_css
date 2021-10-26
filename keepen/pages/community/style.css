@@ -26,7 +26,12 @@ body {
     padding-top: 100px;
 }
 
-
+.paddingtop{
+	width: 100%;
+	background-color: white;
+	padding-top: 70px;
+	height: 70px;
+  }
 /* 전체 옵션 */
 * {
 	margin: 0 auto;
@@ -156,6 +161,7 @@ ul li {
 
 /* 게시판 read */
 #board_read {
+	padding-top: 70px;
 	background-color: #fff;
 	width:900px;
 	position: relative;
@@ -171,7 +177,7 @@ ul li {
 #bo_line {
 	width:900px;
 	height:2px;
-	background: white;
+	background: black;
 	margin-left: 0;
 	margin-top:20px;
 }
